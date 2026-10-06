@@ -1,0 +1,60 @@
+{
+  "question": "Quel est le taux d execution ?",
+  "intent": "DATA",
+  "reponse": "Pour répondre précisément, j'ai besoin de connaître l'exercice concerné. Taux d'exécution budgétaire : pour quel exercice ?",
+  "data": null,
+  "documents": [],
+  "sources": [],
+  "confidence": 1.0,
+  "exercice": null,
+  "analyse": {
+    "question": "Quel est le taux d execution ?",
+    "intent": "DATA",
+    "indicateur": "budget.taux_execution",
+    "libelle_indicateur": "Taux d'exécution budgétaire",
+    "periode": null,
+    "categorie": "budget",
+    "type_analyse": "total",
+    "requiert_donnees": true,
+    "requiert_documents": false,
+    "confiance": 1.0,
+    "raison": "Indicateur identifié : Taux d'exécution budgétaire. Aucun terme documentaire ne justifie la recherche dans les documents.",
+    "scores": {
+      "donnees": 1.0,
+      "documents": 0.0,
+      "noyau_documentaire": 0.0,
+      "croisement": 0.0,
+      "grandeur": 0.4866
+    },
+    "besoin_clarification": true,
+    "question_clarification": "Taux d'exécution budgétaire : pour quel exercice ?",
+    "parametres_manquants": [
+      "exercice"
+    ],
+    "indices_documentaires": []
+  },
+  "resultat": {},
+  "controle": {
+    "conforme": true,
+    "note": "précision demandée avant toute interrogation des sources"
+  },
+  "generee_par": "backend",
+  "modele": null,
+  "regle": "Les chiffres de cette réponse proviennent exclusivement du backend, calculés avant toute génération. Aucun n'est estimé, extrapolé ni inventé par un modèle de langage.",
+  "avertissements": [],
+  "limites": [],
+  "clarification": {
+    "motif": "Indicateur identifié : Taux d'exécution budgétaire. Aucun terme documentaire ne justifie la recherche dans les documents.",
+    "question": "Taux d'exécution budgétaire : pour quel exercice ?",
+    "parametres_manquants": [
+      "exercice"
+    ]
+  },
+  "hors_perimetre": false,
+  "reponse_rejetee": null,
+  "duree_ms": 0,
+  "chemin": [
+    "routeur",
+    "clarification"
+  ]
+}

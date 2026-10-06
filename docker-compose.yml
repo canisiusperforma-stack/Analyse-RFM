@@ -1,0 +1,30 @@
+# Orchestration de développement.
+#
+# Seul MongoDB est fourni ici. Le backend et le frontend se lancent sur la
+# machine hôte, avec leur rechargement à chaud : c'est le mode de travail
+# attendu, et `scripts\demarrer-projet.bat` fait les deux d'un clic. Les voir
+# dans un conteneur n'apporterait que l'inverse — pas de rechargement, et un
+# montage de volume à chaque modification.
+
+services:
+  mongo:
+    image: mongo:7
+    container_name: rfm-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-donnees:/data/db
+    healthcheck:
+      # `mongosh` est présent dans l'image. Le test porte sur un `ping` réel et
+      # non sur la présence du processus : le backend doit démarrer une fois la
+      # base accessible, pas seulement une fois le conteneur lancé.
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+volumes:
+  mongo-donnees:
+    name: rfm-mongo-donnees

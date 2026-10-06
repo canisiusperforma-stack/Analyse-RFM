@@ -1,0 +1,509 @@
+[
+  {
+    "_id": "6aad5a8a967dd007937750c3",
+    "importation_id": "6aad5a8a967dd007937750b6",
+    "ligne": 4,
+    "colonne": "montant_cotisation",
+    "valeur": "abc",
+    "raison": "montant non interprétable : 'abc'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6aad5a8a967dd007937750c4",
+    "importation_id": "6aad5a8a967dd007937750b6",
+    "ligne": 5,
+    "colonne": "*",
+    "valeur": "ligne 2",
+    "raison": "Doublon de la ligne 2 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6aad5a97310b4d70409f008e",
+    "importation_id": "6aad5a97310b4d70409f0081",
+    "ligne": 4,
+    "colonne": "montant_cotisation",
+    "valeur": "abc",
+    "raison": "montant non interprétable : 'abc'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6aad5a97310b4d70409f008f",
+    "importation_id": "6aad5a97310b4d70409f0081",
+    "ligne": 5,
+    "colonne": "*",
+    "valeur": "ligne 2",
+    "raison": "Doublon de la ligne 2 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6aad5a97310b4d70409f0096",
+    "importation_id": "6aad5a97310b4d70409f0090",
+    "ligne": 2,
+    "colonne": "matricule",
+    "valeur": "",
+    "raison": "Valeur obligatoire manquante (matricule)",
+    "type_erreur": "obligatoire"
+  },
+  {
+    "_id": "6aad63d3f02d3c071f9e21d2",
+    "importation_id": "6aad63d3f02d3c071f9e21c5",
+    "ligne": 4,
+    "colonne": "montant_cotisation",
+    "valeur": "abc",
+    "raison": "montant non interprétable : 'abc'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6aad63d3f02d3c071f9e21d3",
+    "importation_id": "6aad63d3f02d3c071f9e21c5",
+    "ligne": 5,
+    "colonne": "*",
+    "valeur": "ligne 2",
+    "raison": "Doublon de la ligne 2 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6aad63d4f02d3c071f9e21da",
+    "importation_id": "6aad63d4f02d3c071f9e21d4",
+    "ligne": 2,
+    "colonne": "matricule",
+    "valeur": "",
+    "raison": "Valeur obligatoire manquante (matricule)",
+    "type_erreur": "obligatoire"
+  },
+  {
+    "_id": "6aae1e84a4f3b7bdf6693e21",
+    "importation_id": "6aae1e84a4f3b7bdf6693e14",
+    "ligne": 4,
+    "colonne": "montant_cotisation",
+    "valeur": "abc",
+    "raison": "montant non interprétable : 'abc'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6aae1e84a4f3b7bdf6693e22",
+    "importation_id": "6aae1e84a4f3b7bdf6693e14",
+    "ligne": 5,
+    "colonne": "*",
+    "valeur": "ligne 2",
+    "raison": "Doublon de la ligne 2 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6aae1e84a4f3b7bdf6693e29",
+    "importation_id": "6aae1e84a4f3b7bdf6693e23",
+    "ligne": 2,
+    "colonne": "matricule",
+    "valeur": "",
+    "raison": "Valeur obligatoire manquante (matricule)",
+    "type_erreur": "obligatoire"
+  },
+  {
+    "_id": "6ac487aa67c663734161f2a4",
+    "importation_id": "6ac487a967c663734161f155",
+    "ligne": 166,
+    "colonne": "montant_cotisation",
+    "valeur": "N/A",
+    "raison": "montant non interprétable : 'N/A'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6ac487aa67c663734161f2a5",
+    "importation_id": "6ac487a967c663734161f155",
+    "ligne": 167,
+    "colonne": "*",
+    "valeur": "ligne 8",
+    "raison": "Doublon de la ligne 8 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6ac4987576ac73364ef05c83",
+    "importation_id": "6ac4987476ac73364ef05b34",
+    "feuille": 0,
+    "ligne": 166,
+    "colonne": "montant_cotisation",
+    "valeur": "N/A",
+    "raison": "montant non interprétable : 'N/A'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6ac4987576ac73364ef05c84",
+    "importation_id": "6ac4987476ac73364ef05b34",
+    "feuille": 0,
+    "ligne": 167,
+    "colonne": "*",
+    "valeur": "ligne 8",
+    "raison": "Doublon de la ligne 8 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6ac4987576ac73364ef06349",
+    "importation_id": "6ac4987476ac73364ef05b34",
+    "feuille": 3,
+    "ligne": 5,
+    "colonne": "matricule",
+    "valeur": "RFM-2021-00166",
+    "raison": "Référence beneficiaire introuvable : importez d'abord les bénéficiaires",
+    "type_erreur": "deversement"
+  },
+  {
+    "_id": "6ac4987576ac73364ef0634a",
+    "importation_id": "6ac4987476ac73364ef05b34",
+    "feuille": 3,
+    "ligne": 218,
+    "colonne": "matricule",
+    "valeur": "RFM-2021-00166",
+    "raison": "Référence beneficiaire introuvable : importez d'abord les bénéficiaires",
+    "type_erreur": "deversement"
+  },
+  {
+    "_id": "6ac4987576ac73364ef0634b",
+    "importation_id": "6ac4987476ac73364ef05b34",
+    "feuille": 3,
+    "ligne": 311,
+    "colonne": "matricule",
+    "valeur": "RFM-2021-00166",
+    "raison": "Référence beneficiaire introuvable : importez d'abord les bénéficiaires",
+    "type_erreur": "deversement"
+  },
+  {
+    "_id": "6ac4987676ac73364ef064cd",
+    "importation_id": "6ac4987576ac73364ef0634c",
+    "feuille": 0,
+    "ligne": 191,
+    "colonne": "montant_cotisation",
+    "valeur": "N/A",
+    "raison": "montant non interprétable : 'N/A'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6ac4987676ac73364ef064ce",
+    "importation_id": "6ac4987576ac73364ef0634c",
+    "feuille": 0,
+    "ligne": 192,
+    "colonne": "*",
+    "valeur": "ligne 8",
+    "raison": "Doublon de la ligne 8 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6ac4987776ac73364ef06c15",
+    "importation_id": "6ac4987576ac73364ef0634c",
+    "feuille": 3,
+    "ligne": 411,
+    "colonne": "matricule",
+    "valeur": "RFM-2022-00191",
+    "raison": "Référence beneficiaire introuvable : importez d'abord les bénéficiaires",
+    "type_erreur": "deversement"
+  },
+  {
+    "_id": "6ac4987776ac73364ef06dcf",
+    "importation_id": "6ac4987776ac73364ef06c16",
+    "feuille": 0,
+    "ligne": 219,
+    "colonne": "montant_cotisation",
+    "valeur": "N/A",
+    "raison": "montant non interprétable : 'N/A'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6ac4987776ac73364ef06dd0",
+    "importation_id": "6ac4987776ac73364ef06c16",
+    "feuille": 0,
+    "ligne": 220,
+    "colonne": "*",
+    "valeur": "ligne 8",
+    "raison": "Doublon de la ligne 8 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6ac4987976ac73364ef0775a",
+    "importation_id": "6ac4987876ac73364ef07561",
+    "feuille": 0,
+    "ligne": 251,
+    "colonne": "montant_cotisation",
+    "valeur": "N/A",
+    "raison": "montant non interprétable : 'N/A'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6ac4987976ac73364ef0775b",
+    "importation_id": "6ac4987876ac73364ef07561",
+    "feuille": 0,
+    "ligne": 252,
+    "colonne": "*",
+    "valeur": "ligne 8",
+    "raison": "Doublon de la ligne 8 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6ac4987a76ac73364ef080b9",
+    "importation_id": "6ac4987a76ac73364ef07f6a",
+    "feuille": 0,
+    "ligne": 166,
+    "colonne": "montant_cotisation",
+    "valeur": "N/A",
+    "raison": "montant non interprétable : 'N/A'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6ac4987a76ac73364ef080ba",
+    "importation_id": "6ac4987a76ac73364ef07f6a",
+    "feuille": 0,
+    "ligne": 167,
+    "colonne": "*",
+    "valeur": "ligne 8",
+    "raison": "Doublon de la ligne 8 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6ac4987b76ac73364ef0877f",
+    "importation_id": "6ac4987a76ac73364ef07f6a",
+    "feuille": 3,
+    "ligne": 5,
+    "colonne": "matricule",
+    "valeur": "RFM-2021-00166",
+    "raison": "Référence beneficiaire introuvable : importez d'abord les bénéficiaires",
+    "type_erreur": "deversement"
+  },
+  {
+    "_id": "6ac4987b76ac73364ef08780",
+    "importation_id": "6ac4987a76ac73364ef07f6a",
+    "feuille": 3,
+    "ligne": 218,
+    "colonne": "matricule",
+    "valeur": "RFM-2021-00166",
+    "raison": "Référence beneficiaire introuvable : importez d'abord les bénéficiaires",
+    "type_erreur": "deversement"
+  },
+  {
+    "_id": "6ac4987b76ac73364ef08781",
+    "importation_id": "6ac4987a76ac73364ef07f6a",
+    "feuille": 3,
+    "ligne": 311,
+    "colonne": "matricule",
+    "valeur": "RFM-2021-00166",
+    "raison": "Référence beneficiaire introuvable : importez d'abord les bénéficiaires",
+    "type_erreur": "deversement"
+  },
+  {
+    "_id": "6ac49a82ba9f76950d2f0bec",
+    "importation_id": "6ac49a81ba9f76950d2f0a9d",
+    "feuille": 0,
+    "ligne": 166,
+    "colonne": "montant_cotisation",
+    "valeur": "N/A",
+    "raison": "montant non interprétable : 'N/A'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6ac49a82ba9f76950d2f0bed",
+    "importation_id": "6ac49a81ba9f76950d2f0a9d",
+    "feuille": 0,
+    "ligne": 167,
+    "colonne": "*",
+    "valeur": "ligne 8",
+    "raison": "Doublon de la ligne 8 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6ac49a83ba9f76950d2f1341",
+    "importation_id": "6ac49a83ba9f76950d2f11c0",
+    "feuille": 0,
+    "ligne": 191,
+    "colonne": "montant_cotisation",
+    "valeur": "N/A",
+    "raison": "montant non interprétable : 'N/A'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6ac49a83ba9f76950d2f1342",
+    "importation_id": "6ac49a83ba9f76950d2f11c0",
+    "feuille": 0,
+    "ligne": 192,
+    "colonne": "*",
+    "valeur": "ligne 8",
+    "raison": "Doublon de la ligne 8 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6ac49a85ba9f76950d2f1bd6",
+    "importation_id": "6ac49a84ba9f76950d2f1a1d",
+    "feuille": 0,
+    "ligne": 219,
+    "colonne": "montant_cotisation",
+    "valeur": "N/A",
+    "raison": "montant non interprétable : 'N/A'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6ac49a85ba9f76950d2f1bd7",
+    "importation_id": "6ac49a84ba9f76950d2f1a1d",
+    "feuille": 0,
+    "ligne": 220,
+    "colonne": "*",
+    "valeur": "ligne 8",
+    "raison": "Doublon de la ligne 8 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6ac49a86ba9f76950d2f25d9",
+    "importation_id": "6ac49a86ba9f76950d2f23e0",
+    "feuille": 0,
+    "ligne": 251,
+    "colonne": "montant_cotisation",
+    "valeur": "N/A",
+    "raison": "montant non interprétable : 'N/A'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6ac49a86ba9f76950d2f25da",
+    "importation_id": "6ac49a86ba9f76950d2f23e0",
+    "feuille": 0,
+    "ligne": 252,
+    "colonne": "*",
+    "valeur": "ligne 8",
+    "raison": "Doublon de la ligne 8 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6ac49a88ba9f76950d2f2f14",
+    "importation_id": "6ac49a87ba9f76950d2f2dc5",
+    "feuille": 0,
+    "ligne": 166,
+    "colonne": "montant_cotisation",
+    "valeur": "N/A",
+    "raison": "montant non interprétable : 'N/A'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6ac49a88ba9f76950d2f2f15",
+    "importation_id": "6ac49a87ba9f76950d2f2dc5",
+    "feuille": 0,
+    "ligne": 167,
+    "colonne": "*",
+    "valeur": "ligne 8",
+    "raison": "Doublon de la ligne 8 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6ac49b7ab5218827e052e464",
+    "importation_id": "6ac49b7ab5218827e052e315",
+    "feuille": 0,
+    "ligne": 166,
+    "colonne": "montant_cotisation",
+    "valeur": "N/A",
+    "raison": "montant non interprétable : 'N/A'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6ac49b7ab5218827e052e465",
+    "importation_id": "6ac49b7ab5218827e052e315",
+    "feuille": 0,
+    "ligne": 167,
+    "colonne": "*",
+    "valeur": "ligne 8",
+    "raison": "Doublon de la ligne 8 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6ac49b7cb5218827e052ebb9",
+    "importation_id": "6ac49b7bb5218827e052ea38",
+    "feuille": 0,
+    "ligne": 191,
+    "colonne": "montant_cotisation",
+    "valeur": "N/A",
+    "raison": "montant non interprétable : 'N/A'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6ac49b7cb5218827e052ebba",
+    "importation_id": "6ac49b7bb5218827e052ea38",
+    "feuille": 0,
+    "ligne": 192,
+    "colonne": "*",
+    "valeur": "ligne 8",
+    "raison": "Doublon de la ligne 8 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6ac49b7eb5218827e052f44e",
+    "importation_id": "6ac49b7db5218827e052f295",
+    "feuille": 0,
+    "ligne": 219,
+    "colonne": "montant_cotisation",
+    "valeur": "N/A",
+    "raison": "montant non interprétable : 'N/A'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6ac49b7eb5218827e052f44f",
+    "importation_id": "6ac49b7db5218827e052f295",
+    "feuille": 0,
+    "ligne": 220,
+    "colonne": "*",
+    "valeur": "ligne 8",
+    "raison": "Doublon de la ligne 8 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6ac49b7fb5218827e052fe51",
+    "importation_id": "6ac49b7fb5218827e052fc58",
+    "feuille": 0,
+    "ligne": 251,
+    "colonne": "montant_cotisation",
+    "valeur": "N/A",
+    "raison": "montant non interprétable : 'N/A'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6ac49b7fb5218827e052fe52",
+    "importation_id": "6ac49b7fb5218827e052fc58",
+    "feuille": 0,
+    "ligne": 252,
+    "colonne": "*",
+    "valeur": "ligne 8",
+    "raison": "Doublon de la ligne 8 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6ac49b81b5218827e053078c",
+    "importation_id": "6ac49b81b5218827e053063d",
+    "feuille": 0,
+    "ligne": 166,
+    "colonne": "montant_cotisation",
+    "valeur": "N/A",
+    "raison": "montant non interprétable : 'N/A'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6ac49b81b5218827e053078d",
+    "importation_id": "6ac49b81b5218827e053063d",
+    "feuille": 0,
+    "ligne": 167,
+    "colonne": "*",
+    "valeur": "ligne 8",
+    "raison": "Doublon de la ligne 8 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  },
+  {
+    "_id": "6ac49d9bab28d3d82e774177",
+    "importation_id": "6ac49d9aab28d3d82e774028",
+    "feuille": 0,
+    "ligne": 166,
+    "colonne": "montant_cotisation",
+    "valeur": "N/A",
+    "raison": "montant non interprétable : 'N/A'",
+    "type_erreur": "type"
+  },
+  {
+    "_id": "6ac49d9bab28d3d82e774178",
+    "importation_id": "6ac49d9aab28d3d82e774028",
+    "feuille": 0,
+    "ligne": 167,
+    "colonne": "*",
+    "valeur": "ligne 8",
+    "raison": "Doublon de la ligne 8 (valeurs identiques après normalisation)",
+    "type_erreur": "doublon"
+  }
+]
