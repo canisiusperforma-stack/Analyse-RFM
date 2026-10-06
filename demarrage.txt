@@ -1,0 +1,7 @@
+>#demarrage du backend
+cd backend
+.\venv\Scripts\python.exe -m uvicorn app.main:app --reload        
+
+#demarrage Frontend
+cd Frontend
+npm run dev
